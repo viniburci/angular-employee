@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+//import * as $ from 'jquery';
 
 declare var jQuery: any;
 
@@ -14,6 +14,6 @@ export class AppComponent implements OnInit{
   constructor(){}
 
   ngOnInit() {
-    jQuery("#myselector").style="display: none;";
+    //jQuery("#myselector").style="display: none;";
   }
 }
