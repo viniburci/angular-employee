@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import * as $ from 'jquery';
 
-declare var jQuery: any;
 
 @Component({
   selector: 'app-root',
@@ -9,11 +7,11 @@ declare var jQuery: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'angular-frontend';
+  title = 'Angular Springboot CRUD';
 
   constructor(){}
 
   ngOnInit() {
-    //jQuery("#myselector").style="display: none;";
+
   }
 }
