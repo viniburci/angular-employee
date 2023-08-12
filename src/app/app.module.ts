@@ -9,6 +9,8 @@ import { CreateEmployeeComponent } from './create-employee/create-employee.compo
 import { FormsModule } from '@angular/forms';
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { ViewEmployeeComponent } from './view-employee/view-employee.component';
+import { HeaderComponent } from './header/header.component';
+import { AuthContentComponent } from './auth-content/auth-content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ViewEmployeeComponent } from './view-employee/view-employee.component';
     EmployeeListComponent,
     CreateEmployeeComponent,
     UpdateEmployeeComponent,
-    ViewEmployeeComponent
+    ViewEmployeeComponent,
+    HeaderComponent,
+    AuthContentComponent
   ],
   imports: [
     BrowserModule,
